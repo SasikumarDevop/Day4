@@ -15,16 +15,29 @@ const person={
     }
 
  }
+for(let key in person.Education){
+    console.log(key)
+}
+
+
 // for(let key in person){
 //     console.log(person[key])
 //  }
-person.Education.forEach(ele=>{console.log(ele)})
+//person.Education.forEach(ele=>{console.log(ele)})
 // person.Skills.forEach(ele=>{console.log(ele)})
 // for(let key in person.Address)
 // {
 //     console.log(key)
 // }
 
+// for(let value of person.Skills)
+// {
+//     console.log(value)
+// }
+// for(let key in person.Address)
+// {
+//     console.log(key)
+// }
 
 
 
